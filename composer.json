@@ -26,7 +26,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Tolotra\\Mailgun\\": "src/Tolotra/Mailgun/",
+            "Tolotra\\Mailgun\\": "src/Tolotra/Mailgun/"
         }
     },
     "minimum-stability": "dev",
