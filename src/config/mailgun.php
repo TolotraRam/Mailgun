@@ -9,8 +9,8 @@ return array(
 	 *
 	 */
 	'from' => array(
-		'address' => 'dev.tolotra@gmail.com',
-		'name' => 'Tolotra Ramahatoraka'
+		'address' => '',
+		'name' => ''
 	),
 
 
@@ -25,19 +25,19 @@ return array(
 	 * Mailgun (private) API key
 	 *
 	 */
-	'api_key' => 'key-8779aa50247274ec5024f698089a748b',
+	'api_key' => '',
 
 	/**
 	 * Mailgun public API key
 	 *
 	 */
-	'public_api_key' => 'pubkey-e413e5d562d31a792de60d092cd6b48d',
+	'public_api_key' => '',
 
 	/**
 	 * Domain name registered with Mailgun
 	 *
 	 */
-	'domain' => 'sandboxd9f336a746034f19b6736437f5cff7ce.mailgun.org',
+	'domain' => '',
 
 	/**
 	 * Force the from address
