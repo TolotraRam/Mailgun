@@ -9,8 +9,8 @@ return array(
 	 *
 	 */
 	'from' => array(
-		'address' => '',
-		'name' => ''
+		'address' => env(MAILGUN_FROM_ADDRESS, ''),
+		'name' => env(MAILGUN_FROM_NAME, '')
 	),
 
 
@@ -18,14 +18,14 @@ return array(
 	 * Global reply-to e-mail address
 	 *
 	 */
-	'reply_to' => '',
+	'reply_to' => env(MAILGUN_REPLY_TO, ''),
 
 
 	/**
 	 * Mailgun (private) API key
 	 *
 	 */
-	'api_key' => '',
+	'api_key' => env(MAILGUN_PRIVATE_API_KEY, ''),
 
 	/**
 	 * Mailgun public API key
@@ -37,7 +37,7 @@ return array(
 	 * Domain name registered with Mailgun
 	 *
 	 */
-	'domain' => '',
+	'domain' => env(MAILGUN_PUBLIC_API_KEY, ''),
 
 	/**
 	 * Force the from address
